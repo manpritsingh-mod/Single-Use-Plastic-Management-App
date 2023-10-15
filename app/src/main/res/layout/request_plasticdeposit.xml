@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="220dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:weightSum="5">
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <androidx.cardview.widget.CardView
+
+    android:layout_width="173dp"
+    android:layout_height="185dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="20dp"
+    android:layout_weight="3"
+    android:backgroundTint="@color/colorAccent"
+    android:contextClickable="true"
+    app:cardCornerRadius="30dp"
+    app:cardElevation="20dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp">
+
+        <ImageView
+            android:id="@+id/btnRequest1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorAccent"
+            android:padding="20dp"
+            android:layout_marginBottom="30dp"
+            android:src="@drawable/garbage" />
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignParentBottom="true"-->
+<!--            android:fontFamily="sans-serif-condensed-light"-->
+<!--            android:text="Request Plastic Deposit"-->
+<!--            android:textAlignment="center"-->
+<!--            android:textSize="20sp"-->
+<!--            android:textStyle="bold" />-->
+<!--        -->
+
+        <Button
+            android:id="@+id/PlasticBankIndividual"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="Take My Plastic"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textStyle="bold"/>
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
+
+<Space
+android:layout_width="0dp"
+android:layout_height="wrap_content"
+android:layout_weight="1" />
+
+</LinearLayout>

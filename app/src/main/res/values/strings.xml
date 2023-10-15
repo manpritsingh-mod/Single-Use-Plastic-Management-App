@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name1">Plastic Management</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="plastic_management_control">PLASTIC MANAGEMENT </string>
+    <string name="mobile_number">Mobile Number (10 digits)</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forget Password\n</string>
+    <string name="register_yourself">register_yourself</string>
+    <string name="dont_have_an_account_sign_up"><u>Dont have an account ? Sign Up</u></string>
+    <string name="enter_name">Enter Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="choose_password">Enter Password</string>
+    <string name="already_have_an_account_login"><u>Already have an account? Login</u></string>
+    <string name="title_activity_verification_code">Verification_code</string>
+    <string name="email">Email Address</string>
+    <string name="enter_mobile_forgot_password">Enter your registered mobile number and email below:</string>
+    <string name="app_name">Navigation Drawer</string>
+    <string name="open_nav">Open Navigation Drawer</string>
+    <string name="close_nav">Close Navigation Drawer</string>
+    <string name="shared_pref_file">sharedPreferences</string>
+    <string name="cont"><b>continue</b></string>
+    <string name="choose_your_role"><u>Choose your role :</u></string>
+    <string name="title_activity_request">Request</string>
+    <string name="update_your_profile">Update your Profile</string>
+    <string name="show_current_location">Show Current Location</string>
+    <string name="current_request">Current Request</string>
+    <string name="about_us">About Us</string>
+    <string name="contact_us">Contact Us</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">MapsActivity</string>\
+    <string name="font_SemiBold" translatable="false">fonts/Jost-SemiBold.ttf</string>
+    <string name="u_current_donation_request_u"><u>Request to Bank</u></string>
+    <string name="u_donation_history_u"><u>My Completed Request</u></string>
+    <string name="u_request_from_individual_u"><u>Request From Individual</u></string>
+    <string name="u_request_from_indivdual_u"><u>Request to Corridor</u></string>
+    <string name="both_individual_amp_bank_history"><u>Completed Req of Individual &amp; Bank</u></string>
+    <string name="request_from_bank"><u>Request From Bank</u></string>
+    <string name="request_to_recycler"><u>Request To Recycler</u></string>
+    <string name="bank_amp_corridor_history"><u>Completed Req of Bank &amp; Corridor</u></string>
+    <string name="request_from_corridor"><u>Request From Corridor</u></string>
+    <string name="collection_history"><u>Completed Req of Corridor &amp; Recycler</u></string>
+    <string name="request_from_recycler"><u>Request From Recycler</u></string>
+    <string name="u_history_destoroyer"><u>My Completed Request</u></string>
+    <string name="request_to_destroyer"><u>Request To Destroyer</u></string>
+    <string name="status_of_accepted_requests"><u>Accepted Request from Bank</u></string>
+    <string name="how_our_app_works"><u>How Our App Works ?</u></string>
+</resources>
+

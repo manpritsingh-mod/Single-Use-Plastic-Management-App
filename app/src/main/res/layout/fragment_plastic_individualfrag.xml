@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:padding="30dp"
+    android:background="@drawable/button_bg"
+    tools:context=".plasticindividualfrag">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="INDIVIDUAL PLASTIC DONATIONS"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textview1"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="15dp"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:text="Next" />
+
+            <TextView
+                android:id="@+id/textview1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Together, we can create a world where single-use plastic pollution becomes a thing of the past. Your involvement in plastic waste management is a testament to your care for the well-being of our planet and all its inhabitants. Let's keep up the excellent work and continue to be stewards of the environment!"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:paddingTop="20dp"
+                android:paddingBottom="30dp"
+                android:textSize="20sp"
+                android:layout_below="@+id/textView3"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:lineHeight="25sp"
+                />
+
+        </RelativeLayout>
+    </ScrollView>
+</FrameLayout>

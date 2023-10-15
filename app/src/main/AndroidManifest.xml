@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.manprit.plastic_management">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name1"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Plastic_management"
+        tools:targetApi="31">
+        <activity
+            android:name=".videofile"
+            android:exported="false"/>
+        <activity
+            android:name=".individual_History"
+            android:exported="false" />
+        <activity
+            android:name=".individual_Current_req"
+            android:exported="false" />
+        <activity
+            android:name=".Form.form_Individual"
+            android:exported="false" />
+        <activity
+            android:name=".Form.form_Corridor"
+            android:exported="false" />
+        <!--
+             TODO: Before you run your application, you need a Google Maps API key.
+
+             To get one, follow the directions here:
+
+                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+
+             Once you have your API key (it starts with "AIza"), define a new property in your
+             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDamn2PboEpGx92bpt9l5CgpjHpUjnT7rE" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_maps" />
+        <activity
+            android:name=".Form.form_Recycler_Destroyer"
+            android:exported="false" />
+
+        <activity
+            android:name=".Form.form_Bank_Corridor"
+            android:exported="false" />
+        <activity
+            android:name=".OnBoardingScren.OnBoardingscreen"
+            android:exported="false" />
+        <activity
+            android:name=".PlasticRecyclerDestroyer.CurrentReqDetailsDes"
+            android:exported="false" />
+        <activity
+            android:name=".PlasticRecyclerDestroyer.CurrentReqDetailRecycler"
+            android:exported="false" />
+        <activity
+            android:name=".PlasticRecyclerDestroyer.MoreRider"
+            android:exported="false" />
+        <activity
+            android:name=".PlasticRecyclerDestroyer.DestroyerHistory"
+            android:exported="false" />
+        <activity
+            android:name=".PlasticRecyclerDestroyer.destroyerform"
+            android:exported="false" />
+        <activity
+            android:name=".PlasticRecyclerDestroyer.MainActivityRecyclerDestroyer"
+            android:exported="false" />
+        <activity
+            android:name=".PlasticRecyclerDestroyer.MainActivityDestroyer"
+            android:exported="false" />
+        <activity
+            android:name=".PlasticCorridor.CurrentReqDetail"
+            android:exported="false" />
+        <activity
+            android:name=".PlasticCorridor.updateProfile"
+            android:exported="false" />
+        <activity
+            android:name=".PlasticCorridor.HistoryPC"
+            android:exported="false" />
+        <activity
+            android:name=".PlasticCorridor.ReqPc"
+            android:exported="false" />
+        <activity
+            android:name=".plasticCorridor"
+            android:exported="false" />
+        <activity
+            android:name=".plasticDestroyer"
+            android:exported="false" />
+        <activity
+            android:name=".plasticRecycler"
+            android:exported="false" />
+        <activity
+            android:name=".ContactUs"
+            android:exported="false" />
+        <activity
+            android:name=".AboutUs"
+            android:exported="false" />
+        <activity
+            android:name=".PlasticBank.UpdateUserProfile"
+            android:exported="false" />
+        <activity
+            android:name=".ShowLocation"
+            android:exported="false" />
+        <activity
+            android:name=".PlasticBank.History"
+            android:exported="false" />
+        <activity
+            android:name=".PlasticBank.CurrentStatus"
+            android:exported="false" />
+        <activity
+            android:name=".PlasticBank.RequestCollection"
+            android:exported="false"
+            android:label="@string/title_activity_request"
+            android:theme="@style/Theme.Plastic_management" />
+        <activity
+            android:name=".loginSignup.Reset_password"
+            android:exported="false" />
+        <activity
+            android:name=".loginSignup.Forget_Password"
+            android:exported="false" />
+        <activity
+            android:name=".loginSignup.OTPActivity"
+            android:exported="false" />
+        <activity
+            android:name=".loginSignup.loginactivity"
+            android:exported="false" />
+        <activity
+            android:name=".loginSignup.PhoneActivity"
+            android:exported="false" />
+        <activity
+            android:name=".loginSignup.SignUp"
+            android:exported="false" />
+        <activity
+            android:name=".UserSelection"
+            android:exported="false" />
+        <activity
+            android:name=".loginSignup.splash"
+            android:exported="true"
+            android:theme="@style/Theme.Plastic_management">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PlasticBank.MainActivityBank"
+            android:exported="false" />
+        <activity
+            android:name=".PlasticCorridor.MainActivityCorridor"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityIndividual"
+            android:exported="false" />
+    </application>
+
+</manifest>

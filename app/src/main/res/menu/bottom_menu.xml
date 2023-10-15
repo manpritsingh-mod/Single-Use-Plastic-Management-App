@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/home_24"/>
+
+    <item
+        android:id="@+id/details"
+        android:title="Details"
+        android:icon="@drawable/person_24"
+        />
+
+    <item
+        android:id="@+id/plus"
+        android:icon="@drawable/single_use_small"
+        />
+
+    <item
+        android:id="@+id/contactUs"
+        android:title="Contact Us"
+        android:icon="@drawable/phone_24" />
+    <item
+        android:id="@+id/settings"
+        android:title="Settings"
+        android:icon="@drawable/settings_24" />
+
+</menu>

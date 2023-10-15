@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:id="@+id/rlMain"
+    android:fitsSystemWindows="true">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/clMain"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/ivBackground"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/headerbkg"
+                        app:layout_constraintDimensionRatio="H,0.45"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/llMain"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/spacing_standard_new"
+                    android:layout_marginTop="@dimen/_70sdp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Create Account"
+
+                        android:textColor="@color/white"
+                        android:textSize="32sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="lbl_shop_for_happiness"
+
+                        android:textColor="@color/white"
+                        android:textSize="18sp"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_large">
+
+                <EditText
+                    android:id="@+id/etName"
+                    style="@style/EditTextStyle_rounded"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/spacing_standard"
+                    android:layout_weight="1"
+                    android:hint="First Name"
+                    android:inputType="textEmailAddress"
+                    android:singleLine="true" />
+
+                <EditText
+                    android:id="@+id/etLastName"
+                    style="@style/EditTextStyle_rounded"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/spacing_control"
+                    android:layout_weight="1"
+                    android:hint="Last Name"
+                    android:inputType="textEmailAddress"
+                    android:singleLine="true" />
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/etEmail"
+                style="@style/EditTextStyle_rounded"
+                android:layout_marginTop="@dimen/spacing_standard_new"
+                android:hint="Email" />
+
+            <EditText
+                android:id="@+id/edtUsername"
+                style="@style/EditTextStyle_rounded"
+                android:layout_marginTop="@dimen/spacing_standard_new"
+                android:hint="Username" />
+
+            <EditText
+                android:id="@+id/etPhoneNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/EditTextStyle_rounded"
+                android:layout_marginTop="@dimen/spacing_standard_new"
+                app:helperText="Required"
+                android:hint="Mobile No"
+                android:inputType="phone"
+                android:maxLength="10"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_standard_new"
+                android:layout_marginTop="@dimen/spacing_standard_new"
+                android:layout_marginEnd="@dimen/spacing_standard_new"
+                android:background="@drawable/bg_ractangle_rounded_inactive">
+
+                <EditText
+                    android:id="@+id/etPassword"
+                    style="@style/EditTextStyle_rounded"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginEnd="0dp"
+                    android:layout_toStartOf="@id/ivPwd"
+                    android:background="@null"
+                    android:hint="Password"
+                    android:inputType="textPassword" />
+
+                <ImageView
+                    android:id="@+id/ivPwd"
+                    android:layout_width="@dimen/_30sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="@dimen/spacing_standard_new"
+                    android:padding="@dimen/spacing_control"
+                    android:src="@drawable/ic_eye_line"
+                  />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_standard_new"
+                android:layout_marginTop="@dimen/spacing_standard_new"
+                android:layout_marginEnd="@dimen/spacing_standard_new"
+                android:background="@drawable/bg_ractangle_rounded_inactive">
+
+                <EditText
+                    android:id="@+id/edtConfirmPassword"
+                    style="@style/EditTextStyle_rounded"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginEnd="0dp"
+                    android:background="@null"
+                    android:hint="Confirm Password"
+                    android:inputType="textPassword" />
+
+                <ImageView
+                    android:id="@+id/etConfirmPassword"
+                    android:layout_width="@dimen/_30sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="@dimen/spacing_standard_new"
+                    android:padding="@dimen/spacing_control"
+                    android:src="@drawable/ic_eye_line"
+                />
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/button"
+                style="@style/MaterialButton"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:elevation="@dimen/spacing_middle"
+                android:gravity="center_horizontal"
+                android:text="Sign Up"
+             />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_standard_new"
+                android:layout_marginBottom="@dimen/spacing_standard_new"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/lblAlreadyAccount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Already have Account"
+
+
+                    android:textSize="@dimen/font_size_medium" />
+
+                <TextView
+                    android:id="@+id/btnSignIn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/spacing_control"
+                    android:gravity="center"
+                    android:text="Sign in"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textColorLink="@color/colorPrimaryDark"
+                    android:textSize="@dimen/font_size_medium" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

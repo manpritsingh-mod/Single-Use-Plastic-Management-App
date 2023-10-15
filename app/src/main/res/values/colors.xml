@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary2">#5a98ec</color>
+    <color name="colorPrimaryDark1">#457dca</color>
+    <color name="colorAccent2">#88b0e7</color>
+    <color name="colorAccent">#ACC5E8</color>
+    <color name="colorPrimaryDark">#3262C4</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorRed">#C11515</color>
+    <color name="menuItemColor">#FFED7A</color>
+    <color name="menuItemColor1">#78F3A9</color>
+    <color name="menuItemColor2">#FF99DA</color>
+    <color name="menuItemColor3">#FF6085</color>
+    <color name="grey_40">#999999</color>
+    <color name="grey_60">#666666</color>
+    <color name="editText_background">#F1F1F1</color>
+    <color name="grey_80">#37474F</color>
+    <color name="grey_90">#263238</color>
+    <color name="red_300">#E57373</color>
+    <color name="red_400">#EF5350</color>
+    <color name="black">#000000</color>
+    <color name="colorPrimary1">#ff5039</color>
+    <color name="colorPrimaryDark2">#ee2732</color>
+    <color name="colorPrimaryLight">#ff5039</color>
+    <color name="colorAccent1">#cb202d</color>
+    <color name="lvory">#EEEDE7</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="btn_color">#FF735C</color>
+    <color name="edit_text_color">#FFD6CF</color>
+    <color name="hint_text_color">#D4D4D4</color>
+    <color name="lavender">#8692f7</color>
+    <color name="purple">#8692f7</color>
+    <color name ="custom_color_primary">#643AE7</color>
+    <color name ="custom_color_secondry">#FF8F00</color>
+    <color name = "custom_color_secondry_light">#FFD299</color>
+    <color name = "custom_color_background">#FFFFFF</color>
+    <color name = "custom_color_text_primary">#060906</color>
+    <color name = "custom_color_text_secondry">#464747</color>
+</resources>
+

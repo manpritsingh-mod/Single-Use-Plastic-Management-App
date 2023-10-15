@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="220dp"
+    android:background="@color/white">
+
+
+
+
+    <!--    <RelativeLayout-->
+    <!--        android:layout_width="173dp"-->
+    <!--        android:layout_height="200dp"-->
+    <!--        android:layout_marginTop="10dp"-->
+    <!--        android:layout_marginLeft="10dp"-->
+    <!--        android:layout_weight="3"-->
+    <!--        >-->
+    <!--        <androidx.cardview.widget.CardView-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            app:cardElevation="20dp">-->
+
+
+    <!--        <TextView-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_alignParentBottom="true"-->
+    <!--            android:fontFamily="sans-serif-condensed-light"-->
+    <!--            android:text="Collect Plastic"-->
+    <!--            android:textAlignment="center"-->
+    <!--            android:textSize="20sp"-->
+    <!--            android:textStyle="bold" />-->
+    <!--    </androidx.cardview.widget.CardView>-->
+
+
+    <!--    </RelativeLayout>-->
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/PlasticBankcard2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:backgroundTint="@color/colorAccent"
+        android:contextClickable="true"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.7">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp">
+
+            <ImageView
+                android:id="@+id/btnRequest1"
+                android:layout_width="match_parent"
+                android:layout_height="141dp"
+                android:backgroundTint="@color/colorAccent"
+                android:padding="20dp"
+                android:src="@drawable/garbage" />
+
+            <Button
+                android:id="@+id/PlasticBankcard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="Granules For Sale"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "570158129434",
+    "firebase_url": "https://otp-login-1916d-default-rtdb.firebaseio.com",
+    "project_id": "otp-login-1916d",
+    "storage_bucket": "otp-login-1916d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:570158129434:android:eb6b3806ffb4b7100a4ca3",
+        "android_client_info": {
+          "package_name": "com.manprit.plastic_management"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "570158129434-1p6rjon2hcij0acjt7376bs1r2n25g14.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.manprit.plastic_management",
+            "certificate_hash": "1bc9485802c12ff8e82b043bc2bd2b4cf8749604"
+          }
+        },
+        {
+          "client_id": "570158129434-dblhqllpd588nnibln8k95thgpoaagct.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQjr16shqiNZJsaQzNxG1jz8rEgkGKMyo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "570158129434-dblhqllpd588nnibln8k95thgpoaagct.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

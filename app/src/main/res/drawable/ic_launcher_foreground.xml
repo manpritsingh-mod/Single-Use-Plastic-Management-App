@@ -1,0 +1,17 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:tint="#000000"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+
+    <item
+        android:height="42dp"
+        android:width="42dp"
+        android:gravity="center"
+        android:drawable="@drawable/single_use_small"
+        />
+
+
+</layer-list>

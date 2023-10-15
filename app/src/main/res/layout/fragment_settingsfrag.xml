@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/loginbkg"
+    tools:context=".Fragments.Settingsfrag">
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="155dp"
+        android:src="@drawable/single_use_small"
+        android:layout_marginTop="90dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView4"
+
+        >
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/custom_edittext"
+        android:backgroundTint="@color/hint_text_color"
+        android:drawablePadding="8dp"
+        android:padding="10dp"
+        android:text="ABOUT US"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/textView"
+        android:background="@drawable/custom_edittext"
+        android:layout_marginTop="40dp"
+        android:padding="10dp"
+        android:text="INVITE YOUR FRIENDS"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:backgroundTint="@color/hint_text_color"
+        android:drawablePadding="8dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="100dp"
+        android:layout_below="@+id/textView2"
+        android:id="@+id/textView3"
+        android:background="@drawable/custom_edittext"
+        android:layout_marginTop="40dp"
+        android:padding="10dp"
+        android:text="RATE OUR APP"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/hint_text_color"
+        android:drawablePadding="8dp"/>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

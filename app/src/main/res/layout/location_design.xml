@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:weightSum="10"
+    android:background="@drawable/loginbkg">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="GET IN TOUCH"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="312dp"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+
+        <RelativeLayout
+            android:layout_width="311dp"
+            android:layout_height="295dp"
+            android:layout_gravity="center">
+
+
+            <ImageView
+                android:id="@+id/btnRequest1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/icon_contact_shape"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:layout_centerHorizontal="true"
+                android:padding="12dp"
+                android:src="@drawable/location_on_24" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btnRequest1"
+                android:text="Jamshedpur"
+                android:layout_marginTop="5dp"
+                android:layout_centerHorizontal="true"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold"
+               />
+
+
+            <ImageView
+                android:id="@+id/btnRequest2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/icon_contact_shape"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:layout_centerHorizontal="true"
+                android:padding="12dp"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/textView11"
+                android:src="@drawable/outline_phone_24" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btnRequest2"
+                android:text="+91 123456789"
+                android:layout_marginTop="5dp"
+                android:layout_centerHorizontal="true"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                />
+
+
+            <ImageView
+                android:id="@+id/btnRequest3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/icon_contact_shape"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:layout_centerHorizontal="true"
+                android:padding="12dp"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/textView12"
+                android:src="@drawable/mail_outline_24" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btnRequest3"
+                android:text="123@gmail.com"
+                android:layout_marginTop="5dp"
+                android:layout_centerHorizontal="true"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                />
+
+
+        </RelativeLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

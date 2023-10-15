@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTintMode="multiply"
+    tools:context=".Form.form_Bank_Corridor">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Request to Bank"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/Signup"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/textView4"
+            >
+
+
+            <EditText
+                android:id="@+id/etName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dip"
+                android:layout_marginTop="30dip"
+                android:backgroundTint="@color/hint_text_color"
+                android:layout_marginRight="12dip"
+                android:background="@drawable/et_bg"
+                android:drawablePadding="3dp"
+                android:hint="@string/enter_name"
+                android:padding="10dp"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                app:helperText="Required" />
+
+            <EditText
+                android:id="@+id/etEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dip"
+                android:backgroundTint="@color/hint_text_color"
+                android:layout_marginTop="6dip"
+                android:layout_marginRight="12dip"
+                android:background="@drawable/et_bg"
+                android:drawablePadding="3dp"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:padding="10dip"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                app:helperText="Required" />
+
+
+            <EditText
+                android:id="@+id/etPhoneNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dip"
+                android:layout_marginTop="6dip"
+                android:layout_marginRight="12dip"
+                android:backgroundTint="@color/hint_text_color"
+                android:background="@drawable/et_bg"
+                android:drawablePadding="3dp"
+                android:hint="@string/mobile_number"
+                android:inputType="phone"
+                android:maxLength="10"
+                android:maxLines="1"
+                android:padding="10dip"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                app:helperText="Required" />
+
+            <EditText
+                android:id="@+id/etAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dip"
+                android:layout_marginTop="6dip"
+                android:layout_marginRight="12dip"
+                android:backgroundTint="@color/hint_text_color"
+                android:background="@drawable/et_bg"
+                android:drawablePadding="3dp"
+                android:hint="Address"
+                android:inputType="text"
+                android:maxLines="1"
+                android:padding="10dip"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                app:helperText="Required" />
+
+
+<!--            <com.google.android.material.card.MaterialCardView-->
+<!--                android:id="@+id/card1"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_marginStart="10dp"-->
+<!--                android:layout_marginEnd="12dp"-->
+<!--                android:layout_height="119dp"-->
+<!--                android:layout_marginLeft="12dp"-->
+<!--                android:layout_marginTop="9dp"-->
+<!--                android:layout_marginRight="12dp"-->
+<!--                android:padding="20dp">-->
+
+
+<!--                <RelativeLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content">-->
+
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/textView8"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:paddingLeft="10dp"-->
+<!--                        android:paddingTop="5dp"-->
+<!--                        android:text="Donation Type"-->
+<!--                        android:textSize="15sp"-->
+<!--                        android:textStyle="bold" />-->
+
+
+<!--                    <CheckBox-->
+<!--                        android:id="@+id/checkBox4"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_below="@+id/textView8"-->
+<!--                        android:layout_marginLeft="20dp"-->
+<!--                        android:paddingStart="10dp"-->
+<!--                        android:layout_marginTop="0dp"-->
+<!--                        android:letterSpacing="0.1"-->
+<!--                        android:text="Schools"-->
+<!--                        android:textAlignment="center"-->
+<!--                        android:textSize="15sp"-->
+<!--                        android:textStyle="bold" />-->
+
+<!--                    <CheckBox-->
+<!--                        android:id="@+id/checkBox5"-->
+<!--                        android:layout_width="114dp"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_alignTop="@+id/checkBox4"-->
+<!--                        android:layout_marginStart="97dp"-->
+<!--                        android:layout_marginTop="2dp"-->
+<!--                        android:layout_toEndOf="@+id/checkBox4"-->
+<!--                        android:letterSpacing="0.1"-->
+<!--                        android:text="Colleges"-->
+<!--                        android:textAlignment="center"-->
+<!--                        android:textSize="15sp"-->
+<!--                        android:textStyle="bold" />-->
+
+<!--                    <CheckBox-->
+<!--                        android:id="@+id/checkBox6"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_below="@+id/checkBox5"-->
+<!--                        android:layout_alignParentStart="true"-->
+<!--                        android:paddingStart="10dp"-->
+<!--                        android:layout_marginStart="20dp"-->
+<!--                        android:layout_marginLeft="20dp"-->
+<!--                        android:layout_marginTop="-4dp"-->
+<!--                        android:layout_marginEnd="221dp"-->
+<!--                        android:letterSpacing="0.1"-->
+<!--                        android:text="Others"-->
+<!--                        android:textAlignment="center"-->
+<!--                        android:textSize="15sp"-->
+<!--                        android:textStyle="bold" />-->
+
+
+<!--                </RelativeLayout>-->
+
+<!--            </com.google.android.material.card.MaterialCardView>-->
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/card2"
+                android:layout_width="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="12dp"
+                android:layout_height="119dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="9dp"
+                android:layout_marginRight="12dp"
+                android:padding="20dp">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="5dp"
+                        android:text="Approx. Amount of Plastics (1 Sack -> 20Kg)"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/textView9"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="0dp"
+                        android:paddingStart="10dp"
+                        android:letterSpacing="0.1"
+                        android:text="1-2 Sacks"
+                        android:textAlignment="center"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox8"
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/checkBox7"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="-7dp"
+                        android:letterSpacing="0.1"
+                        android:text="4-8 Sacks"
+                        android:paddingStart="10dp"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox9"
+                        android:layout_width="114dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginStart="80dp"
+                        android:layout_marginTop="27dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_toEndOf="@+id/checkBox7"
+                        android:letterSpacing="0.1"
+                        android:paddingStart="10dp"
+                        android:text="2-4 Sacks"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox10"
+                        android:layout_width="114dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginStart="80dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_toEndOf="@+id/checkBox7"
+                        android:layout_below="@+id/checkBox9"
+                        android:layout_marginTop="-7dp"
+                        android:letterSpacing="0.1"
+                        android:text="8 &amp; more"
+                        android:paddingStart="10dp"
+                        android:textSize="15sp"
+                        android:textStyle="bold"  />
+
+
+                </RelativeLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/card3"
+                android:layout_width="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="12dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="9dp"
+                android:layout_marginRight="20dp"
+                android:padding="20dp">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="5dp"
+                        android:text="Choose NearBy Bank (Schools)"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox12"
+                        android:layout_width="170dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/textView11"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="8dp"
+                        android:paddingStart="10dp"
+                        android:letterSpacing="0.1"
+                        android:text="JPS"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=": New Baridih"
+                        android:textAlignment="center"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginEnd="0dp"
+                        android:layout_below="@+id/textView11"
+                        android:layout_toRightOf="@+id/checkBox12"/>
+
+                    <CheckBox
+                        android:id="@+id/checkBox13"
+                        android:layout_width="170dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/checkBox12"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:paddingStart="10dp"
+                        android:layout_marginTop="8dp"
+                        android:letterSpacing="0.1"
+                        android:text="Baridih High School"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=": Baridih"
+                        android:textAlignment="center"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginEnd="0dp"
+                        android:layout_below="@+id/checkBox12"
+                        android:layout_toRightOf="@+id/checkBox12"/>
+
+                    <CheckBox
+                        android:id="@+id/checkBox14"
+                        android:layout_width="170dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/checkBox13"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginLeft="20dp"
+                        android:paddingStart="10dp"
+                        android:letterSpacing="0.1"
+                        android:text="AIWC"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/checkBox13"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginLeft="-17dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginEnd="0dp"
+                        android:layout_toRightOf="@+id/checkBox12"
+                        android:text=":Dihing Rd,Baridih"
+                        android:textAlignment="center"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox15"
+                        android:layout_width="170dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/checkBox14"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:paddingStart="10dp"
+                        android:layout_marginTop="8dp"
+                        android:letterSpacing="0.1"
+                        android:text="NML KPS"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=": Agrico"
+                        android:textAlignment="center"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginEnd="0dp"
+                        android:layout_below="@+id/checkBox14"
+                        android:layout_toRightOf="@+id/checkBox15"/>
+
+                    <CheckBox
+                        android:id="@+id/checkBox16"
+                        android:layout_width="170dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/checkBox15"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:paddingStart="10dp"
+                        android:layout_marginTop="8dp"
+                        android:letterSpacing="0.1"
+                        android:text="KSMS"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=": Golmuri"
+                        android:textAlignment="center"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginEnd="0dp"
+                        android:layout_below="@+id/checkBox15"
+                        android:layout_toRightOf="@+id/checkBox15"/>
+
+
+                    <CheckBox
+                        android:id="@+id/checkBox17"
+                        android:layout_width="170dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/checkBox16"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:paddingStart="10dp"
+                        android:layout_marginTop="8dp"
+                        android:letterSpacing="0.1"
+                        android:text="DPS"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=": Sakchi"
+                        android:textAlignment="center"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginEnd="0dp"
+                        android:layout_below="@+id/checkBox16"
+                        android:layout_toRightOf="@+id/checkBox15"/>
+
+
+                    <CheckBox
+                        android:id="@+id/checkBox18"
+                        android:layout_width="170dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/checkBox17"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:paddingStart="10dp"
+                        android:layout_marginTop="8dp"
+                        android:letterSpacing="0.1"
+                        android:text="SDSM"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=": Agrico "
+                        android:textAlignment="center"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginEnd="0dp"
+                        android:layout_below="@+id/checkBox17"
+                        android:layout_toRightOf="@+id/checkBox15"/>
+
+
+                </RelativeLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+
+
+            <Button
+                android:id="@+id/buttonSubmit"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_alignParentBottom="true"
+                android:backgroundTint="@color/colorPrimary2"
+                android:text="Submit"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>
